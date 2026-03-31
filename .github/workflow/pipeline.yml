@@ -30,8 +30,10 @@ jobs:
       - name: 4. Passar o Fiscal no código (Testar formatação)
         run: flake8 api.py --count --max-line-length=120 --statistics
 
-      - name: 5. Rodar o script e enviar pro BigQuery
+      - name: 5. Criar arquivo de chave temporário e rodar o script
         env:
-          # Le a chave de segurança no repoisitório
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GCP_CREDENTIALS }}
-        run: python api.py
+          MINHA_CHAVE_SECRETA: ${{ secrets.GCP_CREDENTIALS }}
+        run: |
+          echo "$MINHA_CHAVE_SECRETA" > chave_google.json
+          export GOOGLE_APPLICATION_CREDENTIALS="chave_google.json"
+          python api.py
