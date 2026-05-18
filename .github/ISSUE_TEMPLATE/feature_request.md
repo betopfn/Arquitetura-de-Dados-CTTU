@@ -1,9 +1,9 @@
 ---
 name: 🚀 Sugestão de Melhoria
-description: Tem uma ideia para o projeto? Compartilhe!
-title: "[FEATURE] "
-labels: ["melhoria", "em discussão"]
-assignees: []
+about: Tem uma ideia para o projeto? Compartilhe!
+title: '[FEATURE] '
+labels: 'melhoria, em discussão'
+assignees: ''
 ---
  
 ## 🚀 Descrição da Funcionalidade

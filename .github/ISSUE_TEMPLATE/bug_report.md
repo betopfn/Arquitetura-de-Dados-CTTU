@@ -1,9 +1,9 @@
 ---
 name: 🐛 Reporte de Bug
-description: Encontrou algo quebrado? Nos conte!
-title: "[BUG] "
-labels: ["bug", "precisa de triagem"]
-assignees: []
+about: Encontrou algo quebrado? Nos conte!
+title: '[BUG] '
+labels: 'bug, precisa de triagem'
+assignees: ''
 ---
  
 ## 🐛 Descrição do Bug
