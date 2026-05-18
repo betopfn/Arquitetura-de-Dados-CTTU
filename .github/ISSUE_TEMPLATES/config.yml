@@ -1,0 +1,11 @@
+blank_issues_enabled: false # Impede issues sem template
+ 
+contact_links:
+  - name: 💬 Dúvidas Gerais
+    url: https://github.com/betopfn/Arquitetura-de-Dados-CTTU/discussions
+    about: Para dúvidas que não são bugs nem sugestões, use as Discussions
+ 
+  - name: 📖 Documentação
+    url: https://github.com/betopfn/Arquitetura-de-Dados-CTTU/wiki
+    about: Consulte a documentação antes de abrir uma issue
+ 

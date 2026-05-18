@@ -37,3 +37,6 @@ jobs:
           echo "$MINHA_CHAVE_SECRETA" > chave_google.json
           export GOOGLE_APPLICATION_CREDENTIALS="chave_google.json"
           python api.py
+      - name: 6. Remover chave temporária
+        if: always() # Roda mesmo se o step anterior falhar
+        run: rm -f chave_google.json
