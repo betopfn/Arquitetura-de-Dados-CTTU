@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw
+
+    database: projeto-dados-cttu
+    schema: raw_cttu
+
+    tables:
+      - name: fotossensores_2025_dezembro_quantitativo_das_vias_por_velocidade_media
+
+      - name: lombadas_2025_dezembro_quantitativo_das_vias_por_velocidade_media
+
+      - name: metadados_fluxo_de_veiculo_por_hora
+
+      - name: registro_das_infracoes_de_transito_2025
+
+      - name: registro_de_chamados_atendidos_pela_cttu_2015
+
+      - name: semaforos_do_recife
