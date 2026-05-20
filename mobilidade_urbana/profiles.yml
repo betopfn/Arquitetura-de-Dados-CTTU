@@ -1,0 +1,12 @@
+mobilidade_urbana:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: projeto-dados-cttu
+      dataset: analytics # O dataset padrão onde ele vai criar as tabelas
+      threads: 4
+      # SUBSTITUA pelo caminho exato de onde está o seu arquivo JSON no seu PC
+      keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS') }}
+      location: US

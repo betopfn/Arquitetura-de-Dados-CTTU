@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 with fluxo as (
 
     select *
@@ -14,7 +16,7 @@ tempo as (
 
 select
 
-    md5(
+    to_hex(md5(
 
         concat(
             cast(fluxo.equipamento as string),
@@ -24,7 +26,7 @@ select
             fluxo.tipo_equipamento
         )
 
-    ) as id_fluxo,
+    )) as id_fluxo,
 
     fluxo.tipo_equipamento,
     fluxo.equipamento,

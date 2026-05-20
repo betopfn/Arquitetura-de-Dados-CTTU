@@ -1,3 +1,6 @@
+{{ config(materialized='table') }}
+
+
 with datas as (
 
     select distinct

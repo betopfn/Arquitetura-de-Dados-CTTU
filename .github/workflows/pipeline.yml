@@ -23,9 +23,9 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: 3. Instalar bibliotecas e o "Fiscal de Código" (flake8)
+      - name: 3. Instalar bibliotecas e o "Fiscal de Código" (flake8) e DBT
         run: |
-          pip install requests google-cloud-bigquery flake8
+          pip install requests google-cloud-bigquery flake8 dbt-bigquery
 
       - name: 4. Passar o Fiscal no código (Testar formatação)
         run: flake8 api.py --count --max-line-length=120 --statistics
@@ -37,6 +37,19 @@ jobs:
           echo "$MINHA_CHAVE_SECRETA" > chave_google.json
           export GOOGLE_APPLICATION_CREDENTIALS="chave_google.json"
           python api.py
-      - name: 6. Remover chave temporária
-        if: always() # Roda mesmo se o step anterior falhar
+      - name: 6. Transformação (DBT RAW -> DBT MART)
+        env:
+          MINHA_CHAVE_SECRETA: ${{ secrets.GCP_CREDENTIALS }}
+        run: |
+          # Garante que a chave do Google está configurada para o dbt usar
+          export GOOGLE_APPLICATION_CREDENTIALS="$(pwd)/chave_google.json"
+          
+          # Entra na pasta onde o projeto dbt realmente está
+          cd mobilidade_urbana
+          
+          # Roda o dbt para criar todas as tabelas finais
+          dbt run --profiles-dir .
+
+      - name: 7. Remover chave temporária
+        if: always() # Roda mesmo se os steps anteriores falharem
         run: rm -f chave_google.json
