@@ -1,0 +1,128 @@
+table dim_tempo
+	lineageTag: 9c393369-f4c9-4319-92ac-cdd6bddb6eb0
+
+	column data
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 98b535a1-b5b8-4a80-9e40-cbd00cc49943
+		summarizeBy: none
+		sourceColumn: data
+
+		variation Variation
+			isDefault
+			relationship: b728ebaf-89d0-4b0a-b0c8-c19a75410e12
+			defaultHierarchy: LocalDateTable_f5a1c363-3dc9-4f1e-b013-24d51e319490.'Hierarquia de datas'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ano
+		dataType: int64
+		formatString: 0
+		lineageTag: abd38499-b8fe-44b1-ae22-601f755b41b1
+		summarizeBy: sum
+		sourceColumn: ano
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 813835a9-c5c3-4302-aa28-d5d3d83d429b
+		summarizeBy: sum
+		sourceColumn: mes
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column dia
+		dataType: int64
+		formatString: 0
+		lineageTag: a18d7b4e-cc4d-48f3-a393-3d36064c316b
+		summarizeBy: sum
+		sourceColumn: dia
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_mes
+		dataType: string
+		lineageTag: a443e0d3-416b-4c58-aea7-b951b1f47832
+		summarizeBy: none
+		sourceColumn: nome_mes
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column dia_semana
+		dataType: int64
+		formatString: 0
+		lineageTag: c048f044-2325-4289-9a57-34104f898a3c
+		summarizeBy: sum
+		sourceColumn: dia_semana
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column fim_de_semana
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 7f31ceb3-e748-4818-9ec5-d23369fceafc
+		summarizeBy: none
+		sourceColumn: fim_de_semana
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Dia' = IF(dim_tempo[fim_de_semana] = TRUE(), "Fim de Semana", "Dia Útil")
+		lineageTag: ae773562-aa24-4a05-ab25-24a9785fc84e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome Dia Semana' =
+			
+			SWITCH(
+			    dim_tempo[dia_semana],
+			    1, "Domingo",
+			    2, "Segunda-feira",
+			    3, "Terça-feira",
+			    4, "Quarta-feira",
+			    5, "Quinta-feira",
+			    6, "Sexta-feira",
+			    7, "Sábado",
+			    "Outro"
+			)
+		lineageTag: d75047f1-bf12-42e6-8f11-02eb32f28de0
+		summarizeBy: none
+		sortByColumn: dia_semana
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_tempo = m
+		mode: import
+		source =
+				let
+				    Fonte = GoogleBigQuery.Database([Implementation="2.0"]),
+				    #"projeto-dados-cttu_Database" = Fonte{[Name="projeto-dados-cttu",Kind="Database"]}[Data],
+				    analytics_Schema = #"projeto-dados-cttu_Database"{[Name="analytics",Kind="Schema"]}[Data],
+				    dim_tempo_Table = analytics_Schema{[Name="dim_tempo",Kind="Table"]}[Data]
+				in
+				    dim_tempo_Table
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

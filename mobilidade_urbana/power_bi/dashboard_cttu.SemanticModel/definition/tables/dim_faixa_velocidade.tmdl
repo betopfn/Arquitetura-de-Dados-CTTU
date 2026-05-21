@@ -1,0 +1,44 @@
+table dim_faixa_velocidade
+	lineageTag: 8fc90e8c-8eb8-4c99-8649-ac82c889db6c
+
+	column faixa_velocidade
+		lineageTag: 78b7eaed-6813-4eca-a508-0fe9c55a1da2
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [faixa_velocidade]
+		sortByColumn: ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	column ordem
+		formatString: 0
+		lineageTag: 4042276c-cbdf-442b-a47d-61f80cd92e7e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [ordem]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_faixa_velocidade = calculated
+		mode: import
+		source =
+				DATATABLE(
+				    "faixa_velocidade", STRING,
+				    "ordem", INTEGER,
+				    {
+				        {"0-10 km/h", 1},
+				        {"11-20 km/h", 2},
+				        {"21-30 km/h", 3},
+				        {"31-40 km/h", 4},
+				        {"41-50 km/h", 5},
+				        {"51-60 km/h", 6},
+				        {"61-70 km/h", 7},
+				        {"71-80 km/h", 8},
+				        {"81-90 km/h", 9},
+				        {"91-100 km/h", 10},
+				        {"Acima de 100 km/h", 11}
+				    }
+				)
+
+	annotation PBI_Id = b3f9700c0c1842eb8b7f6ae0bc533ebc
+

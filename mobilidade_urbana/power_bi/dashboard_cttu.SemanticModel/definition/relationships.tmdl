@@ -1,0 +1,13 @@
+relationship b728ebaf-89d0-4b0a-b0c8-c19a75410e12
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_tempo.data
+	toColumn: LocalDateTable_f5a1c363-3dc9-4f1e-b013-24d51e319490.Date
+
+relationship 64b96552-dee6-996f-c096-2cfdc972d125
+	fromColumn: mart_fluxo_transito.data_medicao
+	toColumn: dim_tempo.data
+
+relationship 9757769f-ebb6-aa04-c2c4-c03336d1c1f2
+	fromColumn: mart_fluxo_transito.faixa_velocidade
+	toColumn: dim_faixa_velocidade.faixa_velocidade
+

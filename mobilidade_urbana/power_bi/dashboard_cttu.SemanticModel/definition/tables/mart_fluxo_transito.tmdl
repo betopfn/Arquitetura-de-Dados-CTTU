@@ -1,0 +1,297 @@
+table mart_fluxo_transito
+	lineageTag: ee4c5615-4ea2-48dd-99dc-46ddf313972e
+
+	measure 'Total Veiculos' = SUM(mart_fluxo_transito[quantidade])
+		formatString: 0
+		lineageTag: cde3d1f7-60cf-49dd-9fb1-86a2207755f7
+
+	measure 'Veiculos Alta Velocidade' = ```
+			
+			CALCULATE(
+			    [Total Veiculos],
+			    mart_fluxo_transito[faixa_velocidade] IN {"81-90 km/h", "91-100 km/h", "Acima de 100 km/h"} 
+			)
+			```
+		formatString: 0
+		lineageTag: 7c5b9b97-27c4-4297-80e6-22e589884f97
+
+	measure 'Pico Horario' = MAXX(VALUES(mart_fluxo_transito[hora]), [Total Veiculos])
+		formatString: 0
+		lineageTag: 026b370f-357e-47a0-907e-ec69179e0de1
+
+	measure 'Veiculos por Equipamento' = ```
+			
+			
+			CALCULATE(
+			
+			SUM(mart_fluxo_transito[total_veiculos]),
+			
+			ALLEXCEPT(mart_fluxo_transito, mart_fluxo_transito[equipamento])
+			
+			) 
+			```
+		formatString: 0
+		lineageTag: cadd1877-8ca2-42ab-ac94-274fc05ac076
+
+	measure 'Total Veiculos Fim de Semana' = ```
+			
+			
+			CALCULATE(
+			
+			    [Total Veiculos],
+			
+			    dim_tempo[fim_de_semana] = TRUE()
+			
+			) 
+			```
+		formatString: 0
+		lineageTag: 2391d135-65d3-4d20-a4d8-b52eea28975e
+
+	measure 'Total Veiculos Dia Util' =
+			
+			
+			CALCULATE(
+			
+			    [Total Veiculos],
+			
+			    dim_tempo[fim_de_semana] = FALSE()
+			
+			)
+		formatString: 0
+		lineageTag: bfad0228-4227-444a-bf1b-16db8d342175
+
+	measure '% Alta Velocidade' = ```
+			
+			
+			DIVIDE(
+			
+			[Veiculos Alta Velocidade],
+			
+			[Total Veiculos],
+			
+			0
+			
+			) 
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: b3b121ca-932f-47d1-a784-58646f6af69e
+
+	measure 'Total Veiculos Mes Anterior' =
+			
+			
+			CALCULATE(
+			
+			    [Total Veiculos],
+			
+			    DATEADD(dim_tempo[data], -1, MONTH)
+			
+			)
+		formatString: 0
+		lineageTag: 2f1f6682-4931-4d9b-a2e3-c46b68f4e896
+
+	measure 'Variação % MoM' =
+			
+			
+			DIVIDE(
+			
+			    [Total Veiculos] - [Total Veiculos Mes Anterior],
+			
+			    [Total Veiculos Mes Anterior],
+			
+			    0
+			
+			)
+		lineageTag: 8e2c81b3-c224-4920-b648-f518ada09a2a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Media Diaria Veiculos' = ```
+			
+			AVERAGEX(
+			    VALUES(dim_tempo[data]),
+			    [Total Veiculos]
+			)
+			
+			
+			```
+		lineageTag: 230979bc-790d-4da7-a6cd-fe55f637d26c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Veiculos Acima 60kmh' = ```
+			
+			CALCULATE(
+			    [Total Veiculos],
+			    mart_fluxo_transito[faixa_velocidade] IN {"61-70 km/h", "71-80 km/h", "81-90 km/h", "91-100 km/h", "Acima de 100 km/h"} 
+			)
+			```
+		formatString: 0
+		lineageTag: 53f7140c-7324-44a4-aeb6-d4e19356cff3
+
+	measure 'Meta Tolerancia 60kmh' = [Total Veiculos] * 0.05
+		lineageTag: caf01b5c-034d-4049-81d6-ce7631047b0f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column id_fluxo
+		dataType: string
+		lineageTag: 4b6a59bb-85ba-437d-9c3f-1ac153db05ff
+		summarizeBy: none
+		sourceColumn: id_fluxo
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_equipamento
+		dataType: string
+		lineageTag: ea76b9d9-3bcf-4ee9-8da0-c28f8cb22db8
+		summarizeBy: none
+		sourceColumn: tipo_equipamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column equipamento
+		dataType: string
+		lineageTag: 8d70c66f-0e65-49f6-857f-6879ecf002b0
+		summarizeBy: none
+		sourceColumn: equipamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column faixa
+		dataType: string
+		lineageTag: 8b398c4e-7ecf-4593-9d1c-7f6e798228d0
+		summarizeBy: none
+		sourceColumn: faixa
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_medicao
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 92e82a3d-d7c0-467f-a61d-ba93def8ed4e
+		summarizeBy: none
+		sourceColumn: data_medicao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column hora
+		dataType: int64
+		formatString: 0
+		lineageTag: 9c6bf276-43e2-4586-835a-b3374dfab277
+		summarizeBy: sum
+		sourceColumn: hora
+
+		annotation SummarizationSetBy = Automatic
+
+	column ano
+		dataType: int64
+		formatString: 0
+		lineageTag: 12129d2b-1a26-44e9-bafa-4955a5da80af
+		summarizeBy: sum
+		sourceColumn: ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 1735c1e0-452d-4fed-a482-0448af0b6242
+		summarizeBy: sum
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_mes
+		dataType: string
+		lineageTag: aa5ee26a-fab2-42c1-b95d-3025f509f7d7
+		summarizeBy: none
+		sourceColumn: nome_mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column dia_semana
+		dataType: int64
+		formatString: 0
+		lineageTag: 5c1dca8b-bf8a-4620-bca9-81cb2f580b33
+		summarizeBy: sum
+		sourceColumn: dia_semana
+
+		annotation SummarizationSetBy = Automatic
+
+	column fim_de_semana
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 7a5ddb11-e455-479e-80c3-297a82b46b7d
+		summarizeBy: none
+		sourceColumn: fim_de_semana
+
+		annotation SummarizationSetBy = Automatic
+
+	column faixa_velocidade
+		dataType: string
+		lineageTag: f75641f2-157d-4edb-bace-6c05793c119a
+		summarizeBy: none
+		sourceColumn: faixa_velocidade
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade
+		dataType: int64
+		formatString: 0
+		lineageTag: 72995281-a936-49d2-8feb-0e1a14991e46
+		summarizeBy: sum
+		sourceColumn: quantidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_veiculos
+		dataType: int64
+		formatString: 0
+		lineageTag: a1338ddc-b46c-4eb3-8496-c3c4c40212e3
+		summarizeBy: sum
+		sourceColumn: total_veiculos
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ordem Faixa Velocidade' =
+			
+			SWITCH(
+			    mart_fluxo_transito[faixa_velocidade],
+			    "0-10 km/h", 1,
+			    "11-20 km/h", 2,
+			    "21-30 km/h", 3,
+			    "31-40 km/h", 4,
+			    "41-50 km/h", 5,
+			    "51-60 km/h", 6,
+			    "61-70 km/h", 7,
+			    "71-80 km/h", 8,
+			    "81-90 km/h", 9,
+			    "91-100 km/h", 10,
+			    "Acima de 100 km/h", 11,
+			    99
+			)
+		formatString: 0
+		lineageTag: 53e56719-3679-4a8a-9d43-37b8550a4c8a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition mart_fluxo_transito = m
+		mode: import
+		source =
+				let
+				    Fonte = GoogleBigQuery.Database([Implementation="2.0"]),
+				    #"projeto-dados-cttu_Database" = Fonte{[Name="projeto-dados-cttu",Kind="Database"]}[Data],
+				    analytics_Schema = #"projeto-dados-cttu_Database"{[Name="analytics",Kind="Schema"]}[Data],
+				    mart_fluxo_transito_Table = analytics_Schema{[Name="mart_fluxo_transito",Kind="Table"]}[Data]
+				in
+				    mart_fluxo_transito_Table
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

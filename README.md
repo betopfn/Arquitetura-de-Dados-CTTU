@@ -42,6 +42,10 @@ Portal Dados Abertos (CTTU)
 │   └── marts/
 │       ├── dim_tempo.sql
 │       └── mart_fluxo_transito.sql
+├── powerbi/                      # Arquivos do Dashboard em Power BI
+│   ├── dashboard_cttu.Report/    # Front-end (Visuais e Páginas)
+│   ├── dashboard_cttu.SemanticModel/ # Back-end (Dados e DAX)
+│   └── dashboard_cttu.pbip       # Arquivo de Projeto Power BI
 ├── analyses/
 ├── macros/
 ├── seeds/
@@ -91,7 +95,7 @@ Portal Dados Abertos (CTTU)
 | **Google BigQuery** | Data warehouse em nuvem |
 | **dbt (Data Build Tool)** | Transformação e modelagem dos dados |
 | **GitHub Actions** | CI/CD — agendamento, validação e execução automatizada |
-| **Dashboard** | Visualização dos dados *(em desenvolvimento)* |
+| **Power BI** | Visualização dos dados |
  
 ---
  
@@ -187,7 +191,15 @@ O projeto conta com templates padronizados para contribuição:
  
 ## 📊 Dashboard
  
-O dashboard está em desenvolvimento e será construído sobre as tabelas do dataset `analytics`, especificamente os marts gerados pelo dbt.
+O dashboard foi desenvolvido no Power BI utilizando o formato .pbip (Power BI Project), permitindo o versionamento eficiente de código no Git. O painel consome diretamente os marts gerados pelo dbt (dim_tempo e mart_fluxo_transito) para fornecer insights estratégicos sobre a mobilidade urbana.
+
+O relatório está estruturado em 3 páginas analíticas focadas em tomada de decisão:
+
+Visão Geral: KPIs de volume total de tráfego, média diária e proporção geral de infrações. Apresenta tendências temporais e o ranking geral dos equipamentos mais acionados.
+
+Comportamento e Risco: Foco em segurança viária. Destaca um mapa de calor com os horários e dias críticos de trânsito (picos urbanos) e uma matriz de eficiência comparando o comportamento dos motoristas em Lombadas Eletrônicas versus Fotossensores.
+
+Ranking de Criticidade (Plano de Ação): Ferramenta prescritiva com uma Matriz de Risco (Gráfico de Dispersão) que cruza Volume de Tráfego vs. Taxa de Infração, isolando os equipamentos críticos que demandam fiscalização imediata, acompanhado de uma tabela de detalhamento gerencial.
  
 ---
  
@@ -205,7 +217,7 @@ Os dados são provenientes do **Portal de Dados Abertos da Prefeitura do Recife*
 |-------|-----------------|
 | Engenharia de Dados | Extração, API Python e ingestão no BigQuery |
 | Transformação | Modelagem dbt (Staging, Intermediate, Marts) |
-| Visualização | Dashboard *(em desenvolvimento)* |
+| Visualização | Desenvolvimento de Dashboard e DAX (Power BI) |
  
 ---
  

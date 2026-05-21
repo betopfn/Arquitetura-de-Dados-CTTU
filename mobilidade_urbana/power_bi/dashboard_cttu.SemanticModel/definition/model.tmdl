@@ -1,0 +1,22 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["dim_tempo","mart_fluxo_transito"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dim_tempo
+ref table DateTableTemplate_c82da19d-4972-401b-b60c-e87325b59b03
+ref table LocalDateTable_f5a1c363-3dc9-4f1e-b013-24d51e319490
+ref table mart_fluxo_transito
+ref table dim_faixa_velocidade
+
+ref cultureInfo pt-BR
+

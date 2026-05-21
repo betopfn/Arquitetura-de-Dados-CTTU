@@ -1,0 +1,3502 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_tempo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim tempo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_tempo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tempo": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dim rhythm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dim cadence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rhythm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cadence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dim beat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim speed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim pulse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim pace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim stroke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_tempo.data.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.data.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.data.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.data.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.data.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.nome_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "nome_mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_mes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "dia_semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dia_semana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.fim_de_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "fim_de_semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fim de semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fim_de_semana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.tipo_de_dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "Tipo de Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tempo.nome_dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_tempo",
+			          "ConceptualProperty": "Nome Dia Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dia Semana": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mart fluxo transito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mart_fluxo_transito": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.id_fluxo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "id_fluxo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id fluxo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_fluxo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification fluxo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity fluxo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier fluxo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential fluxo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.tipo_equipamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "tipo_equipamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo equipamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_equipamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tipo do Equipamento": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.equipamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "equipamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equipamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.faixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "faixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.data_medicao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "data_medicao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data medicao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_medicao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information medicao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact medicao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info medicao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic medicao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document medicao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure medicao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record medicao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Data da Medição": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "mart_fluxo_transito.hora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "hora"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.nome_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "nome_mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_mes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "dia_semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dia_semana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.fim_de_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "fim_de_semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fim de semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fim_de_semana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.faixa_velocidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "faixa_velocidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "faixa velocidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_velocidade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.quantidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "quantidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.total_veiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "total_veiculos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total veiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_veiculos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate veiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall veiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.ordem_faixa_velocidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Ordem Faixa Velocidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem faixa velocidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.total_veiculos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Total Veiculos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total veiculos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate veiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall veiculo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.veiculos_alta_velocidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Veiculos Alta Velocidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "veiculos alta velocidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.pico_horario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Pico Horario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pico horario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.veiculos_por_equipamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Veiculos por Equipamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "veiculos por equipamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.total_veiculos_fim_de_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Total Veiculos Fim de Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total veiculos fim de semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate veiculo fim de semana": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall veiculo fim de semana": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.total_veiculos_dia_util": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Total Veiculos Dia Util"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total veiculos dia util": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate veiculo dia util": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall veiculo dia util": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.alta_velocidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "% Alta Velocidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% alta velocidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage alta velocidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct alta velocidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.total_veiculos_mes_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Total Veiculos Mes Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total veiculos mes anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate veiculo me anterior": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall veiculo me anterior": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.variação__MoM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Variação % MoM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variação % MoM": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "variação percentage mom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "variação pct mom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "variação % ma": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "variação % mommy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "variação % mamma": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "variação % mama": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "variação % mammy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "variação % momma": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "variação % mother": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "variação % mum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.media_diaria_veiculos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Media Diaria Veiculos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media diaria veiculos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.veiculos_acima_60kmh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Veiculos Acima 60kmh"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "veiculos acima 60kmh": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito.meta_tolerancia_60kmh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mart_fluxo_transito",
+			          "ConceptualProperty": "Meta Tolerancia 60kmh"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta tolerancia 60kmh": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_faixa_velocidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_faixa_velocidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim faixa velocidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_faixa_velocidade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_faixa_velocidade.faixa_velocidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_faixa_velocidade",
+			          "ConceptualProperty": "faixa_velocidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa velocidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_velocidade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_faixa_velocidade.ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_faixa_velocidade",
+			          "ConceptualProperty": "ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dim_tempo_data_mê_has_dim_tempo_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data.mê": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.mê"
+			          }
+			        },
+			        "dim_tempo.data.dia": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.dia"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_tempo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "dim_tempo_data_trimestre_has_dim_tempo_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data.trimestre": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.trimestre"
+			          }
+			        },
+			        "dim_tempo.data.mê": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_tempo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_tempo_data_ano_has_dim_tempo_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data.ano": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.ano"
+			          }
+			        },
+			        "dim_tempo.data.trimestre": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.ano"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_tempo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "dim_tempo_data_hierarquia_de_data_has_dim_tempo_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.hierarquia_de_data"
+			          }
+			        },
+			        "dim_tempo.data.dia": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "dim_tempo_data_hierarquia_de_data_has_dim_tempo_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.hierarquia_de_data"
+			          }
+			        },
+			        "dim_tempo.data.mê": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "dim_tempo_data_hierarquia_de_data_has_dim_tempo_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.hierarquia_de_data"
+			          }
+			        },
+			        "dim_tempo.data.trimestre": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_tempo_data_hierarquia_de_data_has_dim_tempo_data_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.hierarquia_de_data"
+			          }
+			        },
+			        "dim_tempo.data.ano": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "dim_tempo_data_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo.data": {
+			          "Target": {
+			            "Entity": "dim_tempo.data"
+			          }
+			        },
+			        "dim_tempo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_tempo.data.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo.data"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_dim_faixa_velocidade": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "dim_faixa_velocidade": {
+			          "Target": {
+			            "Entity": "dim_faixa_velocidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "dim_faixa_velocidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_dim_faixa_velocidades"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_faixa_velocidade"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_faixa_velocidades_have_mart_fluxo_transitos"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_dim_tempo": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_dim_tempi"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_mart_fluxo_transitos"
+			        }
+			      ]
+			    },
+			    "dim_faixa_velocidade_has_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_faixa_velocidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_faixa_velocidade": {
+			          "Target": {
+			            "Entity": "dim_faixa_velocidade"
+			          }
+			        },
+			        "dim_faixa_velocidade.ordem": {
+			          "Target": {
+			            "Entity": "dim_faixa_velocidade.ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_faixa_velocidade"
+			            },
+			            "Object": {
+			              "Role": "dim_faixa_velocidade.ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_faixa_velocidades_have_ordems"
+			        }
+			      ]
+			    },
+			    "dim_faixa_velocidade_has_faixa_velocidade": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_faixa_velocidade"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_faixa_velocidade": {
+			          "Target": {
+			            "Entity": "dim_faixa_velocidade"
+			          }
+			        },
+			        "dim_faixa_velocidade.faixa_velocidade": {
+			          "Target": {
+			            "Entity": "dim_faixa_velocidade.faixa_velocidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_faixa_velocidade"
+			            },
+			            "Object": {
+			              "Role": "dim_faixa_velocidade.faixa_velocidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_faixa_velocidades_have_faixa_velocidades"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_meta_tolerancia_60kmh": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.meta_tolerancia_60kmh": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.meta_tolerancia_60kmh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.meta_tolerancia_60kmh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_meta_tolerancia_60kmh"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_veiculos_acima_60kmh": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.veiculos_acima_60kmh": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.veiculos_acima_60kmh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.veiculos_acima_60kmh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_veiculos_acima_60kmh"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_media_diaria_veiculos": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.media_diaria_veiculos": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.media_diaria_veiculos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.media_diaria_veiculos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_media_diaria_veiculos"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_mart_fluxo_transito_media_diaria_veiculos": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "mart_fluxo_transito.media_diaria_veiculos": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.media_diaria_veiculos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.media_diaria_veiculos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_media_diaria_veiculos"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_variação__MoM": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.variação__MoM": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.variação__MoM"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.variação__MoM"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_variação__MoM"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_total_veiculos_mes_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.total_veiculos_mes_anterior": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.total_veiculos_mes_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.total_veiculos_mes_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_total_veiculos_mes_anterior"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_alta_velocidade": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.alta_velocidade": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.alta_velocidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.alta_velocidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have__alta_velocidade"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_total_veiculos_dia_util": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.total_veiculos_dia_util": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.total_veiculos_dia_util"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.total_veiculos_dia_util"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_total_veiculos_dia_util"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_total_veiculos_fim_de_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.total_veiculos_fim_de_semana": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.total_veiculos_fim_de_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.total_veiculos_fim_de_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_total_veiculos_fim_de_semana"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_veiculos_por_equipamento": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.veiculos_por_equipamento": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.veiculos_por_equipamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.veiculos_por_equipamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_veiculos_por_equipamento"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_pico_horario": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.pico_horario": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.pico_horario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.pico_horario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_pico_horario"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_veiculos_alta_velocidade": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.veiculos_alta_velocidade": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.veiculos_alta_velocidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.veiculos_alta_velocidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_veiculos_alta_velocidade"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_total_veiculos": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.total_veiculos": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.total_veiculos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.total_veiculos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_total_veiculos"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_ordem_faixa_velocidade": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.ordem_faixa_velocidade": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.ordem_faixa_velocidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.ordem_faixa_velocidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_ordem_faixa_velocidades"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_total_veiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.total_veiculo": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.total_veiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.total_veiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_total_veiculos1"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_quantidade": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.quantidade": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.quantidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.quantidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_quantidades"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_fim_de_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.fim_de_semana": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.fim_de_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.fim_de_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_fim_de_semanas"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.dia_semana": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_dia_semanas"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_nome_me": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.nome_me": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.nome_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.nome_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_nome_me"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.me": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_me"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.ano": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_anos"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_hora": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.hora": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.hora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.hora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_horas"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_data_medicao": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.data_medicao": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.data_medicao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.data_medicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_data_medicaos"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_faixa": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.faixa": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.faixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.faixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_faixas"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_equipamento": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.equipamento": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.equipamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.equipamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_equipamentos"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_tipo_equipamento": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.tipo_equipamento": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.tipo_equipamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.tipo_equipamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_tipo_equipamentos"
+			        }
+			      ]
+			    },
+			    "mart_fluxo_transito_has_id_fluxo": {
+			      "Binding": {
+			        "ConceptualEntity": "mart_fluxo_transito"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mart_fluxo_transito": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito"
+			          }
+			        },
+			        "mart_fluxo_transito.id_fluxo": {
+			          "Target": {
+			            "Entity": "mart_fluxo_transito.id_fluxo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mart_fluxo_transito"
+			            },
+			            "Object": {
+			              "Role": "mart_fluxo_transito.id_fluxo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mart_fluxo_transitos_have_id_fluxos"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_nome_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.nome_dia_semana": {
+			          "Target": {
+			            "Entity": "dim_tempo.nome_dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.nome_dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_nome_dia_semanas"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_tipo_de_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.tipo_de_dia": {
+			          "Target": {
+			            "Entity": "dim_tempo.tipo_de_dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.tipo_de_dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_tipo_de_dias"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_fim_de_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.fim_de_semana": {
+			          "Target": {
+			            "Entity": "dim_tempo.fim_de_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.fim_de_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_fim_de_semanas"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.dia_semana": {
+			          "Target": {
+			            "Entity": "dim_tempo.dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_dia_semanas"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_nome_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.nome_me": {
+			          "Target": {
+			            "Entity": "dim_tempo.nome_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.nome_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_nome_me"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.dia": {
+			          "Target": {
+			            "Entity": "dim_tempo.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_dias"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.me": {
+			          "Target": {
+			            "Entity": "dim_tempo.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_me"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.ano": {
+			          "Target": {
+			            "Entity": "dim_tempo.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_anos"
+			        }
+			      ]
+			    },
+			    "dim_tempo_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_tempo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tempo": {
+			          "Target": {
+			            "Entity": "dim_tempo"
+			          }
+			        },
+			        "dim_tempo.data": {
+			          "Target": {
+			            "Entity": "dim_tempo.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tempo"
+			            },
+			            "Object": {
+			              "Role": "dim_tempo.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tempi_have_data"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
