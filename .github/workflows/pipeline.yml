@@ -25,7 +25,7 @@ jobs:
 
       - name: 3. Instalar bibliotecas e o "Fiscal de Código" (flake8) e DBT
         run: |
-          pip install requests google-cloud-bigquery flake8 dbt-bigquery
+          pip install requests google-cloud-bigquery flake8 dbt-bigquery python-dotenv
 
       - name: 4. Passar o Fiscal no código (Testar formatação)
         run: flake8 api.py --count --max-line-length=120 --statistics
